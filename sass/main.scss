@@ -1,4 +1,4 @@
-.calc {
+.calcButtons {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -84,4 +84,10 @@
   }
 
   
+}
+
+.clear {
+  height: 4rem;
+  grid-row: 6 / 7;
+  grid-column: 1 / -1;
 }

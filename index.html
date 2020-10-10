@@ -9,11 +9,11 @@
 </head>
 <body>
   <div class="calculator">
-    <div class="display">Display</div>
+    <input class="display" id="display" value="0"></input> </br> </br>
 
-    <div class="calc">
-      <button class="item item-1">1</button>
-      <button class="item item-2">2</button>
+    <div class="calcButtons" id="calcButtons">
+      <button class="item item-1" id="item">1</button>
+      <button class="item item-2" id="item">2</button>
       <button class="item item-3">3</button>
       <button class="item item-4">4</button>
       <button class="item item-5">5</button>
@@ -23,11 +23,13 @@
       <button class="item item-9">9</button>
       <button class="item item-0">0</button>
 
-      <button class="operand operand-1">+</button>
-      <button class="operand operand-2">-</button>
-      <button class="operand operand-3">*</button>
-      <button class="operand operand-4">/</button>
+      <button class="operand operand-1" data-action="add">+</button>
+      <button class="operand operand-2" data-action="minus">-</button>
+      <button class="operand operand-3" data-action="multiply">*</button>
+      <button class="operand operand-4" data-action="divide">/</button>
       <button class="operand operand-5">=</button>
+
+      <button class="clear">Clear</button>
     </div>
   </div>
   

@@ -1,11 +1,11 @@
-.calc {
+.calcButtons {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   width: 80vw;
   row-gap: 1.2rem;
   column-gap: 1.2rem; }
-  .calc > * {
+  .calcButtons > * {
     align-items: center;
     justify-content: center; }
 
@@ -60,3 +60,8 @@
   .operand-5 {
     grid-row: 5 / 6;
     grid-column: 3 / 4; }
+
+.clear {
+  height: 4rem;
+  grid-row: 6 / 7;
+  grid-column: 1 / -1; }
